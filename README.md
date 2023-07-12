@@ -48,7 +48,7 @@
 
 Результат о прохождении тестов присылается в телеграм, со ссылкой на Allure отчет.
 
-скрин
+![Telegram](/images/screenshot/teleg.png)
 
 ### __Примеры Allure отчётов:__ 
 
@@ -64,12 +64,13 @@ API-тесты
 
 Пример видео прохождения теста
 
-![Allure vid](/images/screenshot/video_e7b45cd13bf59c8381d1a5f01b414e8b.html)
+![Allure vid](/images/screenshot/del.gif)
 
-Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/26950/tree?treeId=6826&search=)
+### __Интеграции с другими сервисами:__ 
+[Allure TestOps](https://allure.autotests.cloud/launch/26950/tree?treeId=6826&search=)
 
 ![Allure TestOps](/images/screenshot/allureTestOps.png)
 
-Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-783)
+[Jira](https://jira.autotests.cloud/browse/HOMEWORK-783)
 
 ![Allure TestOps](/images/screenshot/jira.png)
