@@ -38,4 +38,38 @@
    - Удаление пользователя
    - Регистрация с невалидными данными
 
+## Запуск тестов
 
+### [Запуск проекта в Jenkins](https://jenkins.autotests.cloud/job/005-diploma_project_ld/)
+
+Для запуска тестов выбрать "Собрать сейчас"
+
+![Jenkins](/images/screenshot/jenkins.png)
+
+Результат о прохождении тестов присылается в телеграм, со ссылкой на Allure отчет.
+
+скрин
+
+### __Примеры Allure отчётов:__ 
+
+#### [Allure Report](https://jenkins.autotests.cloud/job/005-diploma_project_ld/2/allure/)
+
+UI-тесты
+
+![Allure UI](/images/screenshot/ui.png)
+
+API-тесты
+
+![Allure API](/images/screenshot/api.png)
+
+Пример видео прохождения теста
+
+![Allure vid](/images/screenshot/video_e7b45cd13bf59c8381d1a5f01b414e8b.html)
+
+Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/26950/tree?treeId=6826&search=)
+
+![Allure TestOps](/images/screenshot/allureTestOps.png)
+
+Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-783)
+
+![Allure TestOps](/images/screenshot/jira.png)
