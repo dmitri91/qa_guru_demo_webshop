@@ -52,7 +52,7 @@
 
 ### __Примеры Allure отчётов:__ 
 
-#### [Allure Report](https://jenkins.autotests.cloud/job/005-diploma_project_ld/2/allure/)
+#### [Allure Report](https://jenkins.autotests.cloud/job/005-diploma_project_ld/8/allure/)
 
 UI-тесты
 

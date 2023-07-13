@@ -10,11 +10,6 @@ from datetime import datetime
 from utils import attach
 
 
-def generate_word():
-    fake = Faker(["ru_RU"])
-    return fake.unique.word()
-
-
 def generate_first_name():
     fake = Faker(["ru_RU"])
     return fake.first_name()

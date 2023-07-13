@@ -38,10 +38,7 @@ def web_browser():
         command_executor=f"https://{s_login}:{s_password}@selenoid.autotests.cloud/wd/hub",
         options=options,
     )
-    driver.implicitly_wait(60)
     browser.config.driver = driver
-
-    browser.config.browser_name = "chrome"
     browser.config.base_url = os.getenv('base_url')
     browser.open("")
 
@@ -56,7 +53,7 @@ def web_browser():
 
 
 @pytest.fixture()
-def login():
+def request_auth():
     login = os.getenv('user_login')
     password = os.getenv('user_password')
 
@@ -72,7 +69,7 @@ def login():
 
 
 @pytest.fixture()
-def open_browser_through_api(login, web_browser):
-    token = login.cookies.get('NOPCOMMERCE.AUTH')
+def auth_through_api(request_auth, web_browser):
+    token = request_auth.cookies.get('NOPCOMMERCE.AUTH')
     browser.driver.add_cookie({"name": "NOPCOMMERCE.AUTH", "value": token})
     browser.open("")
